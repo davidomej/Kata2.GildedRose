@@ -30,7 +30,7 @@ public class GildedRoseShould {
         GildedRose app = new GildedRose(items);
         app.updateQuality();
         assertEquals("Backstage passes to a TAFKAL80ETC concert", app.items[0].name);
-        assertEquals(21, app.items[0].quality);
+        assertEquals(0, app.items[0].quality);
         assertEquals(-1, app.items[0].sellIn);
     }
 }
